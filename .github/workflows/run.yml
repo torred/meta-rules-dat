@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: MetaCubeX/meta-rules-dat
+          repository: torred/meta-rules-dat
           fetch-depth: '2'
 
       - name: Checkout Loyalsoldier/domain-list-custom
