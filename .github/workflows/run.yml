@@ -26,11 +26,11 @@ jobs:
           echo "WIN_EXTRA=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt" >> $GITHUB_ENV
         shell: bash
 
-      - name: Checkout
+      - name: Checkout torred/meta-rules-dat
         uses: actions/checkout@v4
         with:
           repository: torred/meta-rules-dat
-          fetch-depth: '2'
+          fetch-depth: '1'
 
       - name: Checkout Loyalsoldier/domain-list-custom
         uses: actions/checkout@v4
@@ -162,7 +162,6 @@ jobs:
         run: |
           cd custom || exit 1
           # echo sentry.io >>  ../community/data/openai
-          ls ../geo-extra/geosite
           cp ../geo-extra/geosite/* ../community/data/
           echo ipleak.net >> ../community/data/geolocation-\!cn && echo browserleaks.org >> ../community/data/geolocation-\!cn
           go run ./ --datapath=../community/data
