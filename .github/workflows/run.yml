@@ -162,8 +162,8 @@ jobs:
         run: |
           cd custom || exit 1
           # echo sentry.io >>  ../community/data/openai
-          ls ../geo-extra
-          # cp ../geo-extra/geosite/google-voice ../community/data
+          ls ../geo-extra/geosite
+          cp ../geo-extra/geosite/* ../community/data/
           echo ipleak.net >> ../community/data/geolocation-\!cn && echo browserleaks.org >> ../community/data/geolocation-\!cn
           go run ./ --datapath=../community/data
 
