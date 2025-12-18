@@ -16,14 +16,16 @@ mihomo：[meta branch](https://github.com/torred/meta-rules-dat/tree/meta)
 同 [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
 - 新增类别（方便有特殊需求的用户使用）：
-  - `geoip:cloudflare`
-  - `geoip:cloudfront`
-  - `geoip:facebook`
-  - `geoip:fastly`
-  - `geoip:google`
-  - `geoip:netflix`
-  - `geoip:telegram`
-  - `geoip:twitter`
+  - `geoip:cloudflare（GEOIP,CLOUDFLARE）`
+  - `geoip:cloudfront（GEOIP,CLOUDFRONT）`
+  - `geoip:facebook（GEOIP,FACEBOOK）`
+  - `geoip:fastly（GEOIP,FASTLY）`
+  - `geoip:google（GEOIP,GOOGLE）`
+  - `geoip:netflix（GEOIP,NETFLIX）`
+  - `geoip:telegram（GEOIP,TELEGRAM）`
+  - `geoip:twitter（GEOIP,TWITTER）`
+  - `geoip:tor（GEOIP,TOR）`
+  - `geoip:private（GEOIP,PRIVATE）`
 
 ## **country-lite.mmdb 内容**
 
@@ -125,6 +127,7 @@ https://github.com/MetaCubeX/geo
 - [@DanPollock/hosts](https://someonewhocares.org/hosts)
 - [@crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
 - [@blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
+
 
 
 
