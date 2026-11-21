@@ -1,0 +1,5 @@
+payload:
+    - +.voice.googleapis.com
+    - +.voice.google.com
+    - +.lens.l.google.com
+    - +.voice.clients6.google.com
